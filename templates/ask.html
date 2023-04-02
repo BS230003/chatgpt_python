@@ -1,0 +1,33 @@
+
+<html>
+<body>
+<hr>
+ Question using OpenAI and Python Interface 
+<hr>
+  <form method="POST" action="{{ url_for('ask') }}">
+    <label for="name">Ask Question:</label>
+      <input type="text" id="name" name="question" value="{{question}}"
+        style="font-size: 14px;font-family:Arial;width:500px;" >
+      </input>
+      <input type="submit" value="Submit" style="font-size: 14px;font-family:Arial;" />
+  </form>
+
+  <hr>
+Answer from ChatGPT: 
+<hr><hr>
+  <h3>
+    <pre  style="white-space: pre-wrap; word-break: keep-all;">
+      {{ response_data }}</b>
+  </pre>
+ </h3>
+  <hr>
+
+  <pre>
+    Developed using 
+        <b>pip openai liberary
+          python 3.9 version
+          by Bahadur Singh: singh.bahadur@gmail.com
+        </b>
+  </pre>
+</body>
+</html>
