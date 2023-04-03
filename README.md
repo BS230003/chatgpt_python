@@ -21,6 +21,5 @@ It will start a server on localhost:5000
 You will see ask page loaded
 run you query. 
 
+https://github.com/BS230003/chatgpt_python/blob/main/open_ai_QA.PNG
 
-
-    ![open_ai_QA](https://user-images.githubusercontent.com/69346689/229551684-d8c3fc58-96e5-4f98-b888-4dd9d3cbb2be.PNG)
