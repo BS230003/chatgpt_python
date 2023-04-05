@@ -7,7 +7,10 @@ Developed using Visual Studio Code 1.77, Python 3.9, openai and html on Windows 
     install VS Code
     install pythn 3.9
     install openai library
-    
+
+# Get your Open AI Key
+     https://platform.openai.com/docs/api-reference
+
 # What is pre-requite ?
     Some Python knowledge is needed, VS Code and python plugin for openai is needed.
     Register at openai website and get the API Reference Key for your personal account
