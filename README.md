@@ -1,18 +1,18 @@
-# chatgpt_python
+# chatgpt_python open-ai 
 
-simple chatgpt open AI access application using python and open-ai
-Developed using Visual Studion Code on Windows 10  
+A very simple chatgpt Open AI access application using python asking queries to ChatGPT.
+Developed using Visual Studio Code 1.77, Python 3.9, openai and html on Windows 10 Platform  
 
-# pip install python3
+#using pip install python3
 
-# pip install openai
+#using pip install openai
 
-How to do it? 
+#How to do it? 
     install VS Code
     install pythn 3.9
     install openai library
     
-What is pre-requite ?
+#What is pre-requite ?
     some Python knowledge is needed, VS Code and python plugin for openai is needed.
     register at openai website and get the API Reference Key for your personal account
 
