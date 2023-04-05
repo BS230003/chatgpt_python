@@ -14,7 +14,7 @@ openai.api_key = "your_key_from_openai"
 
 # Ask a question
 def askQuestion (qry):
-    
+
     response = openai.Completion.create(
     model="text-davinci-003",
     prompt=qry,
@@ -23,9 +23,8 @@ def askQuestion (qry):
     top_p=1.0,
     frequency_penalty=0.0,
     presence_penalty=0.0,
-    stop=["\""]
+    stop=["\"\""]
 )
-
     # Print the response
     print ('##### ANSWER FROM CHATGPT ####### ')
     #print(response["choices"][0]["text"])
@@ -39,12 +38,9 @@ def gotoIndex ():
 @app.route('/ask', methods=['POST'])
 def ask():
     question = request.form['question']  # Make an API call to the chatbot
-    print ('question =', question)
-  
-    #response = post('http://example.com/chatbot', json={'question': question})
-    #response_data = 'ANSWER IS FROM SERVER' # response.json()
+    print ('question you asked =', question) 
     response_data = askQuestion (question)
-    print ('response_data =', response_data)
+    #print ('response_data =', response_data)
     return render_template('ask.html', response_data=response_data, question=question) 
 
 if __name__ == '__main__':
