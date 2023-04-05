@@ -23,3 +23,6 @@ run you query.
 
 https://github.com/BS230003/chatgpt_python/blob/main/open_ai_QA.PNG
 
+
+![alt text]( https://github.com/BS230003/chatgpt_python/blob/main/open_ai_QA.PNG "Logo Title Text 1")
+  
