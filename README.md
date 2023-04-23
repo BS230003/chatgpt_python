@@ -15,3 +15,7 @@ Developed using Visual Studio Code 1.77, Python 3.9, openai and html on Windows 
 ## What is pre-requite ?
     Some Python knowledge is needed, VS Code and python plugin for openai is needed.
     Register at openai website and get the API Reference Key for your personal account
+
+## Running Result
+
+![alt text]( https://github.com/BS230003/chatgpt_python/blob/main/open_ai_QA.PNG "Result Text")
