@@ -23,7 +23,7 @@ def askQuestion (qry):
     top_p=1.0,
     frequency_penalty=0.0,
     presence_penalty=0.0,
-    stop=["\""]
+    stop=["\"\""]
 )
 
     # Print the response
